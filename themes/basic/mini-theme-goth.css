@@ -1,0 +1,249 @@
+/* START OF LIGHT THEME */
+:root {
+  --fore-color: #1e1e2e;
+  --secondary-fore-color: #3d4859;
+  --back-color: #f0e6f6;
+  --secondary-back-color: #fafafa;
+  --blockquote-color: #7c3a3a;
+  --pre-color: #2f4f4f;
+  --border-color: #bfbfbf;
+  --secondary-border-color: #d3d3d3;
+  --heading-ratio: 1.19;
+  --universal-margin: 0.5rem;
+  --universal-padding: 0.5rem;
+  --universal-border-radius: 0.125rem;
+  --a-link-color: #8b4513;
+  --a-visited-color: #69372c;
+  --card-back-color: #f0e6f6;
+  --card-fore-color: #1e1e2e;
+  --card-border-color: #d3d3d3;
+  --form-back-color: #fafafa;
+  --form-fore-color: #1e1e2e;
+  --form-border-color: #d3d3d3;
+  --input-back-color: #f0e6f6;
+  --input-fore-color: #1e1e2e;
+  --input-border-color: #d3d3d3;
+  --input-focus-color: #4b0082;
+  --input-invalid-color: #7c3a3a;
+  --button-back-color: #f5deb3;
+  --button-hover-back-color: #e6be8a;
+  --button-fore-color: #1e1e2e;
+  --button-border-color: transparent;
+  --button-hover-border-color: transparent;
+  --button-group-border-color: rgba(75, 0, 130, 0.5);
+  --header-back-color: #f0e6f6;
+  --header-hover-back-color: #fafafa;
+  --header-fore-color: #3d4859;
+  --header-border-color: #d3d3d3;
+  --nav-back-color: #f0e6f6;
+  --nav-hover-back-color: #fafafa;
+  --nav-fore-color: #3d4859;
+  --nav-border-color: #d3d3d3;
+  --nav-link-color: #8b4513;
+  --footer-fore-color: #3d4859;
+  --footer-back-color: #f0e6f6;
+  --footer-border-color: #d3d3d3;
+  --footer-link-color: #8b4513;
+  --drawer-back-color: #f0e6f6;
+  --drawer-hover-back-color: #fafafa;
+  --drawer-border-color: #d3d3d3;
+  --drawer-close-color: #3d4859;
+  --table-border-color: #bfbfbf;
+  --table-border-separator-color: #7c3a3a;
+  --table-head-back-color: #e6e6fa;
+  --table-head-fore-color: #1e1e2e;
+  --table-body-back-color: #f0e6f6;
+  --table-body-fore-color: #1e1e2e;
+  --table-body-alt-back-color: #fafafa;
+  --table-body-hover-back-color: #9370db;
+  --mark-back-color: #8b4513;
+  --mark-fore-color: #f0e6f6;
+  --toast-back-color: #1e1e2e;
+  --toast-fore-color: #f0e6f6;
+  --tooltip-back-color: #1e1e2e;
+  --tooltip-fore-color: #f0e6f6;
+  --modal-overlay-color: rgba(0, 0, 0, 0.45);
+  --modal-close-color: #3d4859;
+  --modal-close-hover-color: #fafafa;
+  --collapse-label-back-color: #f0e6fa;
+  --collapse-label-fore-color: #1e1e2e;
+  --collapse-label-hover-back-color: #fafafa;
+  --collapse-selected-label-back-color: #e6e6fa;
+  --collapse-border-color: #d3d3d3;
+  --collapse-content-back-color: #f0e6f6;
+  --collapse-selected-label-border-color: #8b4513;
+  --progress-back-color: #d3d3d3;
+  --progress-fore-color: #7c3a3a;
+  --spinner-back-color: #d3d3d3;
+  --spinner-fore-color: #7c3a3a;
+  --generic-border-color: rgba(0, 0, 0, 0.3);
+}
+
+.card.warning {
+  --card-back-color: #c14545;
+  --card-border-color: #b22222;
+}
+
+.card.error {
+  --card-back-color: #8b4513;
+  --card-fore-color: #f0e6f6;
+  --card-border-color: #7c3a3a;
+}
+
+.card > .section.dark {
+  --card-back-color: #fafafa;
+}
+
+button.primary, [type="button"].primary, [type="submit"].primary, [type="reset"].primary, .button.primary, [role="button"].primary {
+  --button-back-color: #4b0082;
+  --button-fore-color: #f0e6f6;
+}
+
+button.primary:hover, button.primary:focus, [type="button"].primary:hover, [type="button"].primary:focus, [type="submit"].primary:hover, [type="submit"].primary:focus, [type="reset"].primary:hover, [type="reset"].primary:focus, .button.primary:hover, .button.primary:focus, [role="button"].primary:hover, [role="button"].primary:focus {
+  --button-hover-back-color: #352f61;
+}
+
+button.secondary, [type="button"].secondary, [type="submit"].secondary, [type="reset"].secondary, .button.secondary, [role="button"].secondary {
+  --button-back-color: #7c3a3a;
+  --button-fore-color: #f0e6f6;
+}
+
+button.secondary:hover, button.secondary:focus, [type="button"].secondary:hover, [type="button"].secondary:focus, [type="submit"].secondary:hover, [type="submit"].secondary:focus, [type="reset"].secondary:hover, [type="reset"].secondary:focus, .button.secondary:hover, .button.secondary:focus, [role="button"].secondary:hover, [role="button"].secondary:focus {
+  --button-hover-back-color: #5e1b3c;
+}
+
+button.tertiary, [type="button"].tertiary, [type="submit"].tertiary, [type="reset"].tertiary, .button.tertiary, [role="button"].tertiary {
+  --button-back-color: #2f4f4f;
+  --button-fore-color: #f0e6f6;
+}
+
+button.tertiary:hover, button.tertiary:focus, [type="button"].tertiary:hover, [type="button"].tertiary:focus, [type="submit"].tertiary:hover, [type="submit"].tertiary:focus, [type="reset"].tertiary:hover, [type="reset"].tertiary:focus, .button.tertiary:hover, .button.tertiary:focus, [role="button"].tertiary:hover, [role="button"].tertiary:focus {
+  --button-hover-back-color: #1e1e2e;
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #f0e6f6;
+  --button-fore-color: #1e1e2e;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #fafafa;
+}
+
+.tooltip:not(.bottom):before {
+  border-top-color: #1e1e2e;
+}
+
+.tooltip.bottom:before {
+  border-bottom-color: #1e1e2e;
+}
+
+mark.secondary {
+  --mark-back-color: #7c3a3a;
+}
+
+mark.tertiary {
+  --mark-back-color: #2f4f4f;
+}
+
+progress.primary {
+  --progress-fore-color: #4b0082;
+}
+
+progress.secondary {
+  --progress-fore-color: #7c3a3a;
+}
+
+progress.tertiary {
+  --progress-fore-color: #2f4f4f;
+}
+
+.spinner.primary {
+  --spinner-fore-color: #4b0082;
+}
+
+.spinner.secondary {
+  --spinner-fore-color: #7c3a3a;
+}
+
+.spinner.tertiary {
+  --spinner-fore-color: #2f4f4f;
+}
+/* END OF LIGHT THEME */
+
+/* START OF DARK THEME */
+@media (prefers-color-scheme: dark) {
+:root {
+  --fore-color: #f0e6f6;
+  --secondary-fore-color: #bfbfbf;
+  --back-color: #1e1e2e;
+  --secondary-back-color: #3d4859;
+  --border-color: #d3d3d3;
+  --secondary-border-color: #bfbfbf;
+  --a-link-color: #8b4513;
+  --a-visited-color: #69372c;
+  --card-back-color: #1e1e2e;
+  --card-fore-color: #f0e6f6;
+  --card-border-color: #d3d3d3;
+  --form-back-color: #3d4859;
+  --form-fore-color: #f0e6f6;
+  --form-border-color: #d3d3d3;
+  --input-back-color: #1e1e2e;
+  --input-fore-color: #f0e6f6;
+  --input-border-color: #d3d3d3;
+  --button-back-color: #3d4859;
+  --button-hover-back-color: #5c7896;
+  --button-fore-color: #f0e6f6;
+  --header-back-color: #1e1e2e;
+  --header-hover-back-color: #3d4859;
+  --header-fore-color: #bfbfbf;
+  --header-border-color: #d3d3d3;
+  --nav-back-color: #1e1e2e;
+  --nav-hover-back-color: #3d4859;
+  --nav-fore-color: #bfbfbf;
+  --nav-border-color: #d3d3d3;
+  --footer-fore-color: #bfbfbf;
+  --footer-back-color: #1e1e2e;
+  --footer-border-color: #d3d3d3;
+  --drawer-back-color: #1e1e2e;
+  --drawer-hover-back-color: #3d4859;
+  --drawer-border-color: #d3d3d3;
+  --drawer-close-color: #bfbfbf;
+  --table-border-color: #d3d3d3;
+  --table-head-back-color: #3d4859;
+  --table-head-fore-color: #f0e6f6;
+  --table-body-back-color: #1e1e2e;
+  --table-body-fore-color: #f0e6f6;
+  --table-body-alt-back-color: #3d4859;
+  --table-body-hover-back-color: #7c3a3a;
+  --tooltip-back-color: #f0e6f6;
+  --tooltip-fore-color: #1e1e2e;
+  --modal-close-color: #bfbfbf;
+  --modal-close-hover-color: #3d4859;
+  --collapse-label-back-color: #1e1e2e;
+  --collapse-label-fore-color: #f0e6f6;
+  --collapse-label-hover-back-color: #3d4859;
+  --collapse-selected-label-back-color: #3d4859;
+  --collapse-border-color: #d3d3d3;
+  --collapse-content-back-color: #3d4859;
+  --progress-back-color: #d3d3d3;
+}
+
+.card.warning {
+  --card-fore-color: #1e1e2e;
+}
+
+.card > .section.dark {
+  --card-fore-color: #1e1e2e;
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #f0e6f6;
+  --button-fore-color: #1e1e2e;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #fafafa;
+}
+}
+/* END OF DARK THEME */

@@ -1,0 +1,249 @@
+/* START OF LIGHT THEME */
+:root {
+  --fore-color: #333;
+  --secondary-fore-color: #666;
+  --back-color: #fff8e1; /* Bubblegum pink background */
+  --secondary-back-color: #ffe0b2; /* Lighter bubblegum pink */
+  --blockquote-color: #ffeb3b; /* Lemon yellow */
+  --pre-color: #cddc39; /* Mint green */
+  --border-color: #d4e157; /* Brighter mint green */
+  --secondary-border-color: #f0f8ff;
+  --heading-ratio: 1.19;
+  --universal-margin: 0.5rem;
+  --universal-padding: 0.5rem;
+  --universal-border-radius: 0.125rem;
+  --a-link-color: #e64a19; /* Candy red */
+  --a-visited-color: #b71c1c;
+  --card-back-color: #fff8e1;
+  --card-fore-color: #333;
+  --card-border-color: #d4e157;
+  --form-back-color: #ffe0b2;
+  --form-fore-color: #333;
+  --form-border-color: #d4e157;
+  --input-back-color: #fff8e1;
+  --input-fore-color: #333;
+  --input-border-color: #d4e157;
+  --input-focus-color: #cddc39;
+  --input-invalid-color: #e64a19;
+  --button-back-color: #ffe0b2;
+  --button-hover-back-color: #ffcc80; /* Lighter bubblegum pink */
+  --button-fore-color: #333;
+  --button-border-color: transparent;
+  --button-hover-border-color: transparent;
+  --button-group-border-color: rgba(191, 63, 243, 0.54); /* Purple for fun */
+  --header-back-color: #fff8e1;
+  --header-hover-back-color: #ffe0b2;
+  --header-fore-color: #666;
+  --header-border-color: #d4e157;
+  --nav-back-color: #fff8e1;
+  --nav-hover-back-color: #ffe0b2;
+  --nav-fore-color: #666;
+  --nav-border-color: #d4e157;
+  --nav-link-color: #e64a19;
+  --footer-fore-color: #666;
+  --footer-back-color: #fff8e1;
+  --footer-border-color: #d4e157;
+  --footer-link-color: #e64a19;
+  --drawer-back-color: #fff8e1;
+  --drawer-hover-back-color: #ffe0b2;
+  --drawer-border-color: #d4e157;
+  --drawer-close-color: #666;
+  --table-border-color: #d4e157;
+  --table-border-separator-color: #666;
+  --table-head-back-color: #ffecb3; /* Lighter bubblegum pink */
+  --table-head-fore-color: #333;
+  --table-body-back-color: #fff8e1;
+  --table-body-fore-color: #333;
+  --table-body-alt-back-color: #ffe0b2;
+  --table-body-hover-back-color: #d7ccc8; /* Soft pink */
+  --mark-back-color: #cddc39;
+  --mark-fore-color: #fff8e1;
+  --toast-back-color: #333;
+  --toast-fore-color: #fff8e1;
+  --tooltip-back-color: #333;
+  --tooltip-fore-color: #fff8e1;
+  --modal-overlay-color: rgba(0, 0, 0, 0.45);
+  --modal-close-color: #666;
+  --modal-close-hover-color: #fff8e1;
+  --collapse-label-back-color: #fff8e1;
+  --collapse-label-fore-color: #333;
+  --collapse-label-hover-back-color: #ffe0b2;
+  --collapse-selected-label-back-color: #ffccbc; /* Soft pink */
+  --collapse-border-color: #d4e157;
+  --collapse-content-back-color: #fff8e1;
+  --collapse-selected-label-border-color: #cddc39;
+  --progress-back-color: #d4e157;
+  --progress-fore-color: #666;
+  --spinner-back-color: #d4e157;
+  --spinner-fore-color: #666;
+  --generic-border-color: rgba(0, 0, 0, 0.3);
+}
+
+.card.warning {
+  --card-back-color: #ffccbc; /* Soft pink */
+  --card-border-color: #e64a19;
+}
+
+.card.error {
+  --card-back-color: #b71c1c;
+  --card-fore-color: #fff8e1;
+  --card-border-color: #880e4f;
+}
+
+.card > .section.dark {
+  --card-back-color: #ffccbc; /* Soft pink */
+}
+
+button.primary, [type="button"].primary, [type="submit"].primary, [type="reset"].primary, .button.primary, [role="button"].primary {
+  --button-back-color: #e64a19;
+  --button-fore-color: #fff8e1;
+}
+
+button.primary:hover, button.primary:focus, [type="button"].primary:hover, [type="button"].primary:focus, [type="submit"].primary:hover, [type="submit"].primary:focus, [type="reset"].primary:hover, [type="reset"].primary:focus, .button.primary:hover, .button.primary:focus, [role="button"].primary:hover, [role="button"].primary:focus {
+  --button-hover-back-color: #b71c1c;
+}
+
+button.secondary, [type="button"].secondary, [type="submit"].secondary, [type="reset"].secondary, .button.secondary, [role="button"].secondary {
+  --button-back-color: #ffeb3b; /* Lemon yellow */
+  --button-fore-color: #fff8e1;
+}
+
+button.secondary:hover, button.secondary:focus, [type="button"].secondary:hover, [type="button"].secondary:focus, [type="submit"].secondary:hover, [type="submit"].secondary:focus, [type="reset"].secondary:hover, [type="reset"].secondary:focus, .button.secondary:hover, .button.secondary:focus, [role="button"].secondary:hover, [role="button"].secondary:focus {
+  --button-hover-back-color: #cddc39; /* Mint green */
+}
+
+button.tertiary, [type="button"].tertiary, [type="submit"].tertiary, [type="reset"].tertiary, .button.tertiary, [role="button"].tertiary {
+  --button-back-color: #4a90e2; /* Candy blue */
+  --button-fore-color: #fff8e1;
+}
+
+button.tertiary:hover, button.tertiary:focus, [type="button"].tertiary:hover, [type="button"].tertiary:focus, [type="submit"].tertiary:hover, [type="submit"].tertiary:focus, [type="reset"].tertiary:hover, [type="reset"].tertiary:focus, .button.tertiary:hover, .button.tertiary:focus, [role="button"].tertiary:hover, [role="button"].tertiary:focus {
+  --button-hover-back-color: #2962ff; /* Darker candy blue */
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #333;
+  --button-fore-color: #fff8e1;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #666;
+}
+
+.tooltip:not(.bottom):before {
+  border-top-color: #333;
+}
+
+.tooltip.bottom:before {
+  border-bottom-color: #333;
+}
+
+mark.secondary {
+  --mark-back-color: #ffeb3b; /* Lemon yellow */
+}
+
+mark.tertiary {
+  --mark-back-color: #4a90e2; /* Candy blue */
+}
+
+progress.primary {
+  --progress-fore-color: #e64a19; /* Candy red */
+}
+
+progress.secondary {
+  --progress-fore-color: #ffeb3b; /* Lemon yellow */
+}
+
+progress.tertiary {
+  --progress-fore-color: #4a90e2; /* Candy blue */
+}
+
+.spinner.primary {
+  --spinner-fore-color: #e64a19; /* Candy red */
+}
+
+.spinner.secondary {
+  --spinner-fore-color: #ffeb3b; /* Lemon yellow */
+}
+
+.spinner.tertiary {
+  --spinner-fore-color: #4a90e2; /* Candy blue */
+}
+/* END OF LIGHT THEME */
+
+/* START OF DARK THEME */
+@media (prefers-color-scheme: dark) {
+:root {
+  --fore-color: #fff8e1;
+  --secondary-fore-color: #ffe0b2;
+  --back-color: #333;
+  --secondary-back-color: #4a4a4a;
+  --border-color: #d4e157; /* Brighter mint green */
+  --secondary-border-color: #666;
+  --a-link-color: #ffeb3b; /* Lemon yellow */
+  --a-visited-color: #cddc39; /* Mint green */
+  --card-back-color: #333;
+  --card-fore-color: #fff8e1;
+  --card-border-color: #d4e157;
+  --form-back-color: #4a4a4a;
+  --form-fore-color: #fff8e1;
+  --form-border-color: #d4e157;
+  --input-back-color: #333;
+  --input-fore-color: #fff8e1;
+  --input-border-color: #d4e157;
+  --button-back-color: #ffe0b2; /* Lighter bubblegum pink */
+  --button-hover-back-color: #ffcc80; /* Even lighter bubblegum pink */
+  --button-fore-color: #333;
+  --header-back-color: #333;
+  --header-hover-back-color: #4a4a4a;
+  --header-fore-color: #ffe0b2;
+  --header-border-color: #d4e157;
+  --nav-back-color: #333;
+  --nav-hover-back-color: #4a4a4a;
+  --nav-fore-color: #ffe0b2;
+  --nav-border-color: #d4e157;
+  --footer-fore-color: #ffe0b2;
+  --footer-back-color: #333;
+  --footer-border-color: #d4e157;
+  --drawer-back-color: #333;
+  --drawer-hover-back-color: #4a4a4a;
+  --drawer-border-color: #d4e157;
+  --drawer-close-color: #ffe0b2;
+  --table-border-color: #d4e157;
+  --table-head-back-color: #ffccbc; /* Soft pink */
+  --table-head-fore-color: #fff8e1;
+  --table-body-back-color: #333;
+  --table-body-fore-color: #fff8e1;
+  --table-body-alt-back-color: #4a4a4a;
+  --table-body-hover-back-color: #ffecb3; /* Lighter bubblegum pink */
+  --tooltip-back-color: #fff8e1;
+  --tooltip-fore-color: #333;
+  --modal-close-color: #ffe0b2;
+  --modal-close-hover-color: #4a4a4a;
+  --collapse-label-back-color: #333;
+  --collapse-label-fore-color: #fff8e1;
+  --collapse-label-hover-back-color: #4a4a4a;
+  --collapse-selected-label-back-color: #ffccbc; /* Soft pink */
+  --collapse-border-color: #d4e157;
+  --collapse-content-back-color: #333;
+  --progress-back-color: #d4e157;
+}
+
+.card.warning {
+  --card-fore-color: #fff8e1;
+}
+
+.card > .section.dark {
+  --card-fore-color: #fff8e1;
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #fff8e1;
+  --button-fore-color: #333;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #ffe0b2; /* Lighter bubblegum pink */
+}
+}
+/* END OF DARK THEME */

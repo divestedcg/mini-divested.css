@@ -1,0 +1,249 @@
+/* START OF LIGHT THEME */
+:root {
+  --fore-color: #332c1e;
+  --secondary-fore-color: #4a3d2b;
+  --back-color: #f0dfbd;
+  --secondary-back-color: #e6cb91;
+  --blockquote-color: #8c5d37;
+  --pre-color: #4a3d2b;
+  --border-color: #8c5d37;
+  --secondary-border-color: #c08c5f;
+  --heading-ratio: 1.19;
+  --universal-margin: 0.5rem;
+  --universal-padding: 0.5rem;
+  --universal-border-radius: 0.125rem;
+  --a-link-color: #6B8E23;
+  --a-visited-color: #8B4513;
+  --card-back-color: #f0dfbd;
+  --card-fore-color: #332c1e;
+  --card-border-color: #c08c5f;
+  --form-back-color: #e6cb91;
+  --form-fore-color: #332c1e;
+  --form-border-color: #c08c5f;
+  --input-back-color: #f0dfbd;
+  --input-fore-color: #332c1e;
+  --input-border-color: #c08c5f;
+  --input-focus-color: #4a3d2b;
+  --input-invalid-color: #ff7979;
+  --button-back-color: #e6cb91;
+  --button-hover-back-color: #c08c5f;
+  --button-fore-color: #332c1e;
+  --button-border-color: transparent;
+  --button-hover-border-color: transparent;
+  --button-group-border-color: rgba(84, 67, 59, 0.54);
+  --header-back-color: #f0dfbd;
+  --header-hover-back-color: #e6cb91;
+  --header-fore-color: #4a3d2b;
+  --header-border-color: #c08c5f;
+  --nav-back-color: #f0dfbd;
+  --nav-hover-back-color: #e6cb91;
+  --nav-fore-color: #4a3d2b;
+  --nav-border-color: #c08c5f;
+  --nav-link-color: #4a3d2b;
+  --footer-fore-color: #4a3d2b;
+  --footer-back-color: #f0dfbd;
+  --footer-border-color: #c08c5f;
+  --footer-link-color: #4a3d2b;
+  --drawer-back-color: #f0dfbd;
+  --drawer-hover-back-color: #e6cb91;
+  --drawer-border-color: #c08c5f;
+  --drawer-close-color: #4a3d2b;
+  --table-border-color: #8c5d37;
+  --table-border-separator-color: #675340;
+  --table-head-back-color: #e6cb91;
+  --table-head-fore-color: #332c1e;
+  --table-body-back-color: #f0dfbd;
+  --table-body-fore-color: #332c1e;
+  --table-body-alt-back-color: #e6cb91;
+  --table-body-hover-back-color: #a48b5d;
+  --mark-back-color: #4a3d2b;
+  --mark-fore-color: #f0dfbd;
+  --toast-back-color: #332c1e;
+  --toast-fore-color: #f0dfbd;
+  --tooltip-back-color: #261f13;
+  --tooltip-fore-color: #f0dfbd;
+  --modal-overlay-color: rgba(0, 0, 0, 0.45);
+  --modal-close-color: #4a3d2b;
+  --modal-close-hover-color: #f0dfbd;
+  --collapse-label-back-color: #e6cb91;
+  --collapse-label-fore-color: #332c1e;
+  --collapse-label-hover-back-color: #e0b785;
+  --collapse-selected-label-back-color: #d3ae7a;
+  --collapse-border-color: #c08c5f;
+  --collapse-content-back-color: #f0dfbd;
+  --collapse-selected-label-border-color: #4a3d2b;
+  --progress-back-color: #c08c5f;
+  --progress-fore-color: #675340;
+  --spinner-back-color: #c08c5f;
+  --spinner-fore-color: #675340;
+  --generic-border-color: rgba(0, 0, 0, 0.3);
+}
+
+.card.warning {
+  --card-back-color: #d3ae7a;
+  --card-border-color: #a48b5d;
+}
+
+.card.error {
+  --card-back-color: #ff7979;
+  --card-fore-color: #f0dfbd;
+  --card-border-color: #e64c26;
+}
+
+.card > .section.dark {
+  --card-back-color: #e0b785;
+}
+
+button.primary, [type="button"].primary, [type="submit"].primary, [type="reset"].primary, .button.primary, [role="button"].primary {
+  --button-back-color: #4a3d2b;
+  --button-fore-color: #f0dfbd;
+}
+
+button.primary:hover, button.primary:focus, [type="button"].primary:hover, [type="button"].primary:focus, [type="submit"].primary:hover, [type="submit"].primary:focus, [type="reset"].primary:hover, [type="reset"].primary:focus, .button.primary:hover, .button.primary:focus, [role="button"].primary:hover, [role="button"].primary:focus {
+  --button-hover-back-color: #5c564e;
+}
+
+button.secondary, [type="button"].secondary, [type="submit"].secondary, [type="reset"].secondary, .button.secondary, [role="button"].secondary {
+  --button-back-color: #ff7979;
+  --button-fore-color: #f0dfbd;
+}
+
+button.secondary:hover, button.secondary:focus, [type="button"].secondary:hover, [type="button"].secondary:focus, [type="submit"].secondary:hover, [type="submit"].secondary:focus, [type="reset"].secondary:hover, [type="reset"].secondary:focus, .button.secondary:hover, .button.secondary:focus, [role="button"].secondary:hover, [role="button"].secondary:focus {
+  --button-hover-back-color: #ff5722;
+}
+
+button.tertiary, [type="button"].tertiary, [type="submit"].tertiary, [type="reset"].tertiary, .button.tertiary, [role="button"].tertiary {
+  --button-back-color: #689e3e;
+  --button-fore-color: #f0dfbd;
+}
+
+button.tertiary:hover, button.tertiary:focus, [type="button"].tertiary:hover, [type="button"].tertiary:focus, [type="submit"].tertiary:hover, [type="submit"].tertiary:focus, [type="reset"].tertiary:hover, [type="reset"].tertiary:focus, .button.tertiary:hover, .button.tertiary:focus, [role="button"].tertiary:hover, [role="button"].tertiary:focus {
+  --button-hover-back-color: #508c36;
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #f0f0f0;
+  --button-fore-color: #332c1e;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #e6cb91;
+}
+
+.tooltip:not(.bottom):before {
+  border-top-color: #261f13;
+}
+
+.tooltip.bottom:before {
+  border-bottom-color: #261f13;
+}
+
+mark.secondary {
+  --mark-back-color: #ff7979;
+}
+
+mark.tertiary {
+  --mark-back-color: #689e3e;
+}
+
+progress.primary {
+  --progress-fore-color: #4a3d2b;
+}
+
+progress.secondary {
+  --progress-fore-color: #ff7979;
+}
+
+progress.tertiary {
+  --progress-fore-color: #689e3e;
+}
+
+.spinner.primary {
+  --spinner-fore-color: #4a3d2b;
+}
+
+.spinner.secondary {
+  --spinner-fore-color: #ff7979;
+}
+
+.spinner.tertiary {
+  --spinner-fore-color: #689e3e;
+}
+/* END OF LIGHT THEME */
+
+/* START OF DARK THEME */
+@media (prefers-color-scheme: dark) {
+:root {
+  --fore-color: #f0dfbd;
+  --secondary-fore-color: #e6cb91;
+  --back-color: #261f13;
+  --secondary-back-color: #4a3d2b;
+  --border-color: #c08c5f;
+  --secondary-border-color: #8c5d37;
+  --a-link-color: #a48b5d;
+  --a-visited-color: #7f6e5d;
+  --card-back-color: #261f13;
+  --card-fore-color: #f0dfbd;
+  --card-border-color: #c08c5f;
+  --form-back-color: #4a3d2b;
+  --form-fore-color: #f0dfbd;
+  --form-border-color: #c08c5f;
+  --input-back-color: #261f13;
+  --input-fore-color: #f0dfbd;
+  --input-border-color: #c08c5f;
+  --button-back-color: #4a3d2b;
+  --button-hover-back-color: #5c564e;
+  --button-fore-color: #f0dfbd;
+  --header-back-color: #261f13;
+  --header-hover-back-color: #4a3d2b;
+  --header-fore-color: #f0dfbd;
+  --header-border-color: #c08c5f;
+  --nav-back-color: #261f13;
+  --nav-hover-back-color: #4a3d2b;
+  --nav-fore-color: #f0dfbd;
+  --nav-border-color: #c08c5f;
+  --footer-fore-color: #f0dfbd;
+  --footer-back-color: #261f13;
+  --footer-border-color: #c08c5f;
+  --drawer-back-color: #261f13;
+  --drawer-hover-back-color: #4a3d2b;
+  --drawer-border-color: #c08c5f;
+  --drawer-close-color: #f0dfbd;
+  --table-border-color: #c08c5f;
+  --table-head-back-color: #4a3d2b;
+  --table-head-fore-color: #f0dfbd;
+  --table-body-back-color: #261f13;
+  --table-body-fore-color: #f0dfbd;
+  --table-body-alt-back-color: #4a3d2b;
+  --table-body-hover-back-color: #5c819f;
+  --tooltip-back-color: #fafafa;
+  --tooltip-fore-color: #261f13;
+  --modal-close-color: #f0dfbd;
+  --modal-close-hover-color: #4a3d2b;
+  --collapse-label-back-color: #4a3d2b;
+  --collapse-label-fore-color: #f0dfbd;
+  --collapse-label-hover-back-color: #5c564e;
+  --collapse-selected-label-back-color: #7f6e5d;
+  --collapse-border-color: #c08c5f;
+  --collapse-content-back-color: #261f13;
+  --progress-back-color: #c08c5f;
+}
+
+.card.warning {
+  --card-fore-color: #261f13;
+}
+
+.card > .section.dark {
+  --card-fore-color: #261f13;
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #f0dfbd;
+  --button-fore-color: #261f13;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #e6cb91;
+}
+}
+/* END OF DARK THEME */

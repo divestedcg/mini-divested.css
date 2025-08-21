@@ -1,0 +1,249 @@
+/* START OF LIGHT THEME */
+:root {
+  --fore-color: #333;
+  --secondary-fore-color: #666;
+  --back-color: #f0e68c;
+  --secondary-back-color: #eedd99;
+  --blockquote-color: #55a630;
+  --pre-color: #21918c;
+  --border-color: #ccc;
+  --secondary-border-color: #bbb;
+  --heading-ratio: 1.19;
+  --universal-margin: 0.5rem;
+  --universal-padding: 0.5rem;
+  --universal-border-radius: 0.125rem;
+  --a-link-color: #388e3c;
+  --a-visited-color: #2e7d32;
+  --card-back-color: #f0e68c;
+  --card-fore-color: #333;
+  --card-border-color: #bbb;
+  --form-back-color: #eedd99;
+  --form-fore-color: #333;
+  --form-border-color: #bbb;
+  --input-back-color: #f0e68c;
+  --input-fore-color: #333;
+  --input-border-color: #bbb;
+  --input-focus-color: #21918c;
+  --input-invalid-color: #ff5722;
+  --button-back-color: #e8f5e9;
+  --button-hover-back-color: #dcedc8;
+  --button-fore-color: #333;
+  --button-border-color: transparent;
+  --button-hover-border-color: transparent;
+  --button-group-border-color: rgba(124, 124, 124, 0.54);
+  --header-back-color: #f0e68c;
+  --header-hover-back-color: #eedd99;
+  --header-fore-color: #666;
+  --header-border-color: #bbb;
+  --nav-back-color: #f0e68c;
+  --nav-hover-back-color: #eedd99;
+  --nav-fore-color: #666;
+  --nav-border-color: #bbb;
+  --nav-link-color: #388e3c;
+  --footer-fore-color: #666;
+  --footer-back-color: #f0e68c;
+  --footer-border-color: #bbb;
+  --footer-link-color: #388e3c;
+  --drawer-back-color: #f0e68c;
+  --drawer-hover-back-color: #eedd99;
+  --drawer-border-color: #bbb;
+  --drawer-close-color: #666;
+  --table-border-color: #ccc;
+  --table-border-separator-color: #aaa;
+  --table-head-back-color: #e8f5e9;
+  --table-head-fore-color: #333;
+  --table-body-back-color: #f0e68c;
+  --table-body-fore-color: #333;
+  --table-body-alt-back-color: #eedd99;
+  --table-body-hover-back-color: #b2dfdb;
+  --mark-back-color: #4caf50;
+  --mark-fore-color: #fff;
+  --toast-back-color: #333;
+  --toast-fore-color: #fff;
+  --tooltip-back-color: #1a237e;
+  --tooltip-fore-color: #fff;
+  --modal-overlay-color: rgba(0, 0, 0, 0.45);
+  --modal-close-color: #666;
+  --modal-close-hover-color: #f8f8f8;
+  --collapse-label-back-color: #e8f5e9;
+  --collapse-label-fore-color: #333;
+  --collapse-label-hover-back-color: #dcedc8;
+  --collapse-selected-label-back-color: #c8e6c9;
+  --collapse-border-color: #bbb;
+  --collapse-content-back-color: #fff;
+  --collapse-selected-label-border-color: #4caf50;
+  --progress-back-color: #bbb;
+  --progress-fore-color: #333;
+  --spinner-back-color: #bbb;
+  --spinner-fore-color: #333;
+  --generic-border-color: rgba(0, 0, 0, 0.3);
+}
+
+.card.warning {
+  --card-back-color: #fff9c4;
+  --card-border-color: #fdd835;
+}
+
+.card.error {
+  --card-back-color: #e57373;
+  --card-fore-color: #fff;
+  --card-border-color: #d32f2f;
+}
+
+.card > .section.dark {
+  --card-back-color: #eedd99;
+}
+
+button.primary, [type="button"].primary, [type="submit"].primary, [type="reset"].primary, .button.primary, [role="button"].primary {
+  --button-back-color: #4caf50;
+  --button-fore-color: #fff;
+}
+
+button.primary:hover, button.primary:focus, [type="button"].primary:hover, [type="button"].primary:focus, [type="submit"].primary:hover, [type="submit"].primary:focus, [type="reset"].primary:hover, [type="reset"].primary:focus, .button.primary:hover, .button.primary:focus, [role="button"].primary:hover, [role="button"].primary:focus {
+  --button-hover-back-color: #45a049;
+}
+
+button.secondary, [type="button"].secondary, [type="submit"].secondary, [type="reset"].secondary, .button.secondary, [role="button"].secondary {
+  --button-back-color: #f44336;
+  --button-fore-color: #fff;
+}
+
+button.secondary:hover, button.secondary:focus, [type="button"].secondary:hover, [type="button"].secondary:focus, [type="submit"].secondary:hover, [type="submit"].secondary:focus, [type="reset"].secondary:hover, [type="reset"].secondary:focus, .button.secondary:hover, .button.secondary:focus, [role="button"].secondary:hover, [role="button"].secondary:focus {
+  --button-hover-back-color: #e53935;
+}
+
+button.tertiary, [type="button"].tertiary, [type="submit"].tertiary, [type="reset"].tertiary, .button.tertiary, [role="button"].tertiary {
+  --button-back-color: #2196f3;
+  --button-fore-color: #fff;
+}
+
+button.tertiary:hover, button.tertiary:focus, [type="button"].tertiary:hover, [type="button"].tertiary:focus, [type="submit"].tertiary:hover, [type="submit"].tertiary:focus, [type="reset"].tertiary:hover, [type="reset"].tertiary:focus, .button.tertiary:hover, .button.tertiary:focus, [role="button"].tertiary:hover, [role="button"].tertiary:focus {
+  --button-hover-back-color: #1976d2;
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #333;
+  --button-fore-color: #fff;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #000;
+}
+
+.tooltip:not(.bottom):before {
+  border-top-color: #333;
+}
+
+.tooltip.bottom:before {
+  border-bottom-color: #333;
+}
+
+mark.secondary {
+  --mark-back-color: #f44336;
+}
+
+mark.tertiary {
+  --mark-back-color: #2196f3;
+}
+
+progress.primary {
+  --progress-fore-color: #4caf50;
+}
+
+progress.secondary {
+  --progress-fore-color: #f44336;
+}
+
+progress.tertiary {
+  --progress-fore-color: #2196f3;
+}
+
+.spinner.primary {
+  --spinner-fore-color: #4caf50;
+}
+
+.spinner.secondary {
+  --spinner-fore-color: #f44336;
+}
+
+.spinner.tertiary {
+  --spinner-fore-color: #2196f3;
+}
+/* END OF LIGHT THEME */
+
+/* START OF DARK THEME */
+@media (prefers-color-scheme: dark) {
+:root {
+  --fore-color: #fff;
+  --secondary-fore-color: #ddd;
+  --back-color: #383838;
+  --secondary-back-color: #4a4a4a;
+  --border-color: #777;
+  --secondary-border-color: #555;
+  --a-link-color: #629b6e;
+  --a-visited-color: #4f7c54;
+  --card-back-color: #383838;
+  --card-fore-color: #fff;
+  --card-border-color: #555;
+  --form-back-color: #4a4a4a;
+  --form-fore-color: #fff;
+  --form-border-color: #555;
+  --input-back-color: #383838;
+  --input-fore-color: #fff;
+  --input-border-color: #555;
+  --button-back-color: #4a4a4a;
+  --button-hover-back-color: #629b6e;
+  --button-fore-color: #ddd;
+  --header-back-color: #383838;
+  --header-hover-back-color: #4a4a4a;
+  --header-fore-color: #ddd;
+  --header-border-color: #555;
+  --nav-back-color: #383838;
+  --nav-hover-back-color: #4a4a4a;
+  --nav-fore-color: #ddd;
+  --nav-border-color: #555;
+  --footer-fore-color: #ddd;
+  --footer-back-color: #383838;
+  --footer-border-color: #555;
+  --drawer-back-color: #383838;
+  --drawer-hover-back-color: #4a4a4a;
+  --drawer-border-color: #555;
+  --drawer-close-color: #ddd;
+  --table-border-color: #777;
+  --table-head-back-color: #4a4a4a;
+  --table-head-fore-color: #fff;
+  --table-body-back-color: #383838;
+  --table-body-fore-color: #fff;
+  --table-body-alt-back-color: #555;
+  --table-body-hover-back-color: #629b6e;
+  --tooltip-back-color: #ddd;
+  --tooltip-fore-color: #333;
+  --modal-close-color: #ddd;
+  --modal-close-hover-color: #4a4a4a;
+  --collapse-label-back-color: #383838;
+  --collapse-label-fore-color: #fff;
+  --collapse-label-hover-back-color: #4a4a4a;
+  --collapse-selected-label-back-color: #555;
+  --collapse-border-color: #777;
+  --collapse-content-back-color: #4a4a4a;
+  --progress-back-color: #777;
+}
+
+.card.warning {
+  --card-fore-color: #fff;
+}
+
+.card > .section.dark {
+  --card-fore-color: #fff;
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #ddd;
+  --button-fore-color: #333;
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #ddd;
+}
+}
+/* END OF DARK THEME */

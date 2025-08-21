@@ -1,0 +1,251 @@
+/* START OF LIGHT THEME */
+:root {
+  --fore-color: #332F2B; /* Rich Espresso Brown */
+  --secondary-fore-color: #8B4513; /* Warm Caramel */
+  --back-color: #FAEBD7; /* Creamy Latte Beige */
+  --secondary-back-color: #F5F5DC;
+  --blockquote-color: #CDAD00; /* Warm Caramel */
+  --pre-color: #8B4513; /* Warm Caramel */
+  --border-color: #A0522D; /* Rich Espresso Brown */
+  --secondary-border-color: #DEB887; /* Burlywood */
+  --heading-ratio: 1.19;
+  --universal-margin: 0.5rem;
+  --universal-padding: 0.5rem;
+  --universal-border-radius: 0.125rem;
+  --a-link-color: #6B8E23; /* Olive Drab */
+  --a-visited-color: #8B4513; /* Warm Caramel */
+  --card-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --card-fore-color: #332F2B; /* Rich Espresso Brown */
+  --card-border-color: #A0522D; /* Rich Espresso Brown */
+  --form-back-color: #F5F5DC;
+  --form-fore-color: #332F2B; /* Rich Espresso Brown */
+  --form-border-color: #A0522D; /* Rich Espresso Brown */
+  --input-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --input-fore-color: #332F2B; /* Rich Espresso Brown */
+  --input-border-color: #A0522D; /* Rich Espresso Brown */
+  --input-focus-color: #8B4513; /* Warm Caramel */
+  --input-invalid-color: #CD5C5C; /* Indian Red */
+  --button-back-color: #DEB887; /* Burlywood */
+  --button-hover-back-color: #F0E68C; /* Khaki */
+  --button-fore-color: #332F2B; /* Rich Espresso Brown */
+  --button-border-color: transparent;
+  --button-hover-border-color: transparent;
+  --button-group-border-color: rgba(124, 124, 124, 0.54);
+  --header-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --header-hover-back-color: #F5F5DC;
+  --header-fore-color: #8B4513; /* Warm Caramel */
+  --header-border-color: #A0522D; /* Rich Espresso Brown */
+  --nav-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --nav-hover-back-color: #F5F5DC;
+  --nav-fore-color: #8B4513; /* Warm Caramel */
+  --nav-border-color: #A0522D; /* Rich Espresso Brown */
+  --nav-link-color: #6B8E23; /* Olive Drab */
+  --footer-fore-color: #8B4513; /* Warm Caramel */
+  --footer-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --footer-border-color: #A0522D; /* Rich Espresso Brown */
+  --footer-link-color: #6B8E23; /* Olive Drab */
+  --drawer-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --drawer-hover-back-color: #F5F5DC;
+  --drawer-border-color: #A0522D; /* Rich Espresso Brown */
+  --drawer-close-color: #8B4513; /* Warm Caramel */
+  --table-border-color: #A0522D; /* Rich Espresso Brown */
+  --table-border-separator-color: #8B4513; /* Warm Caramel */
+  --table-head-back-color: #DEB887; /* Burlywood */
+  --table-head-fore-color: #332F2B; /* Rich Espresso Brown */
+  --table-body-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --table-body-fore-color: #332F2B; /* Rich Espresso Brown */
+  --table-body-alt-back-color: #F5F5DC;
+  --table-body-hover-back-color: #E6E6FA; /* Lavender */
+  --mark-back-color: #CDAD00; /* Warm Caramel */
+  --mark-fore-color: #FFFFFF; /* White */
+  --toast-back-color: #332F2B; /* Rich Espresso Brown */
+  --toast-fore-color: #FFFFFF; /* White */
+  --tooltip-back-color: #332F2B; /* Rich Espresso Brown */
+  --tooltip-fore-color: #FFFFFF; /* White */
+  --modal-overlay-color: rgba(0, 0, 0, 0.45);
+  --modal-close-color: #8B4513; /* Warm Caramel */
+  --modal-close-hover-color: #F5F5DC;
+  --collapse-label-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --collapse-label-fore-color: #332F2B; /* Rich Espresso Brown */
+  --collapse-label-hover-back-color: #F5F5DC;
+  --collapse-selected-label-back-color: #DEB887; /* Burlywood */
+  --collapse-border-color: #A0522D; /* Rich Espresso Brown */
+  --collapse-content-back-color: #FFFFFF; /* White */
+  --collapse-selected-label-border-color: #CDAD00; /* Warm Caramel */
+  --progress-back-color: #A0522D; /* Rich Espresso Brown */
+  --progress-fore-color: #8B4513; /* Warm Caramel */
+  --spinner-back-color: #A0522D; /* Rich Espresso Brown */
+  --spinner-fore-color: #8B4513; /* Warm Caramel */
+  --generic-border-color: rgba(0, 0, 0, 0.3);
+}
+
+.card.warning {
+  --card-back-color: #CDAD00; /* Warm Caramel */
+  --card-border-color: #8B4513; /* Warm Caramel */
+}
+
+.card.error {
+  --card-back-color: #6B2F2F; /* Brown */
+  --card-fore-color: #FFFFFF; /* White */
+  --card-border-color: #4E2A2A; /* Dark Brown */
+}
+
+.card > .section.dark {
+  --card-back-color: #DEB887; /* Burlywood */
+}
+
+button.primary, [type="button"].primary, [type="submit"].primary, [type="reset"].primary, .button.primary, [role="button"].primary {
+  --button-back-color: #4E2A2A; /* Dark Brown */
+  --button-fore-color: #FFFFFF; /* White */
+}
+
+button.primary:hover, button.primary:focus, [type="button"].primary:hover, [type="button"].primary:focus, [type="submit"].primary:hover, [type="submit"].primary:focus, [type="reset"].primary:hover, [type="reset"].primary:focus, .button.primary:hover, .button.primary:focus, [role="button"].primary:hover, [role="button"].primary:focus {
+  --button-hover-back-color: #352B2B; /* Rich Espresso Brown */
+}
+
+button.secondary, [type="button"].secondary, [type="submit"].secondary, [type="reset"].secondary, .button.secondary, [role="button"].secondary {
+  --button-back-color: #CDAD00; /* Warm Caramel */
+  --button-fore-color: #FFFFFF; /* White */
+}
+
+button.secondary:hover, button.secondary:focus, [type="button"].secondary:hover, [type="button"].secondary:focus, [type="submit"].secondary:hover, [type="submit"].secondary:focus, [type="reset"].secondary:hover, [type="reset"].secondary:focus, .button.secondary:hover, .button.secondary:focus, [role="button"].secondary:hover, [role="button"].secondary:focus {
+  --button-hover-back-color: #8B4513; /* Warm Caramel */
+}
+
+button.tertiary, [type="button"].tertiary, [type="submit"].tertiary, [type="reset"].tertiary, .button.tertiary, [role="button"].tertiary {
+  --button-back-color: #8B4513; /* Warm Caramel */
+  --button-fore-color: #FFFFFF; /* White */
+}
+
+button.tertiary:hover, button.tertiary:focus, [type="button"].tertiary:hover, [type="button"].tertiary:focus, [type="submit"].tertiary:hover, [type="submit"].tertiary:focus, [type="reset"].tertiary:hover, [type="reset"].tertiary:focus, .button.tertiary:hover, .button.tertiary:focus, [role="button"].tertiary:hover, [role="button"].tertiary:focus {
+  --button-hover-back-color: #6B2F2F; /* Brown */
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #332F2B; /* Rich Espresso Brown */
+  --button-fore-color: #FFFFFF; /* White */
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #8B4513; /* Warm Caramel */
+}
+
+.tooltip:not(.bottom):before {
+  border-top-color: #332F2B; /* Rich Espresso Brown */
+}
+
+.tooltip.bottom:before {
+  border-bottom-color: #332F2B; /* Rich Espresso Brown */
+}
+
+mark.secondary {
+  --mark-back-color: #CDAD00; /* Warm Caramel */
+}
+
+mark.tertiary {
+  --mark-back-color: #6B2F2F; /* Brown */
+}
+
+progress.primary {
+  --progress-fore-color: #4E2A2A; /* Dark Brown */
+}
+
+progress.secondary {
+  --progress-fore-color: #CDAD00; /* Warm Caramel */
+}
+
+progress.tertiary {
+  --progress-fore-color: #6B2F2F; /* Brown */
+}
+
+.spinner.primary {
+  --spinner-fore-color: #4E2A2A; /* Dark Brown */
+}
+
+.spinner.secondary {
+  --spinner-fore-color: #CDAD00; /* Warm Caramel */
+}
+
+.spinner.tertiary {
+  --spinner-fore-color: #6B2F2F; /* Brown */
+}
+/* END OF LIGHT THEME */
+
+/* START OF DARK THEME */
+@media (prefers-color-scheme: dark) {
+:root {
+  --fore-color: #F5F5DC; /* Creamy Latte Beige */
+  --secondary-fore-color: #DEB887; /* Burlywood */
+  --back-color: #332F2B; /* Rich Espresso Brown */
+  --secondary-back-color: #4E2A2A; /* Dark Brown */
+  --border-color: #A0522D; /* Rich Espresso Brown */
+  --secondary-border-color: #8B4513; /* Warm Caramel */
+  --a-link-color: #6B8E23; /* Olive Drab */
+  --a-visited-color: #8B4513; /* Warm Caramel */
+  --card-back-color: #332F2B; /* Rich Espresso Brown */
+  --card-fore-color: #F5F5DC; /* Creamy Latte Beige */
+  --card-border-color: #A0522D; /* Rich Espresso Brown */
+  --form-back-color: #4E2A2A; /* Dark Brown */
+  --form-fore-color: #F5F5DC; /* Creamy Latte Beige */
+  --form-border-color: #A0522D; /* Rich Espresso Brown */
+  --input-back-color: #332F2B; /* Rich Espresso Brown */
+  --input-fore-color: #F5F5DC; /* Creamy Latte Beige */
+  --input-border-color: #A0522D; /* Rich Espresso Brown */
+  --button-back-color: #8B4513; /* Warm Caramel */
+  --button-hover-back-color: #6B2F2F; /* Brown */
+  --button-fore-color: #FFFFFF; /* White */
+  --header-back-color: #332F2B; /* Rich Espresso Brown */
+  --header-hover-back-color: #4E2A2A; /* Dark Brown */
+  --header-fore-color: #DEB887; /* Burlywood */
+  --header-border-color: #A0522D; /* Rich Espresso Brown */
+  --nav-back-color: #332F2B; /* Rich Espresso Brown */
+  --nav-hover-back-color: #4E2A2A; /* Dark Brown */
+  --nav-fore-color: #DEB887; /* Burlywood */
+  --nav-border-color: #A0522D; /* Rich Espresso Brown */
+  --footer-fore-color: #DEB887; /* Burlywood */
+  --footer-back-color: #332F2B; /* Rich Espresso Brown */
+  --footer-border-color: #A0522D; /* Rich Espresso Brown */
+  --footer-link-color: #6B8E23; /* Olive Drab */
+  --drawer-back-color: #332F2B; /* Rich Espresso Brown */
+  --drawer-hover-back-color: #4E2A2A; /* Dark Brown */
+  --drawer-border-color: #A0522D; /* Rich Espresso Brown */
+  --drawer-close-color: #DEB887; /* Burlywood */
+  --table-border-color: #A0522D; /* Rich Espresso Brown */
+  --table-head-back-color: #4E2A2A; /* Dark Brown */
+  --table-head-fore-color: #F5F5DC; /* Creamy Latte Beige */
+  --table-body-back-color: #332F2B; /* Rich Espresso Brown */
+  --table-body-fore-color: #F5F5DC; /* Creamy Latte Beige */
+  --table-body-alt-back-color: #4E2A2A; /* Dark Brown */
+  --table-body-hover-back-color: #E6E6FA; /* Lavender */
+  --tooltip-back-color: #F0E68C; /* Khaki */
+  --tooltip-fore-color: #332F2B; /* Rich Espresso Brown */
+  --modal-close-color: #DEB887; /* Burlywood */
+  --modal-close-hover-color: #4E2A2A; /* Dark Brown */
+  --collapse-label-back-color: #4E2A2A; /* Dark Brown */
+  --collapse-label-fore-color: #F5F5DC; /* Creamy Latte Beige */
+  --collapse-label-hover-back-color: #332F2B; /* Rich Espresso Brown */
+  --collapse-selected-label-back-color: #8B4513; /* Warm Caramel */
+  --collapse-border-color: #A0522D; /* Rich Espresso Brown */
+  --collapse-content-back-color: #FFFFFF; /* White */
+  --collapse-selected-label-border-color: #CDAD00; /* Warm Caramel */
+  --progress-back-color: #A0522D; /* Rich Espresso Brown */
+}
+
+.card.warning {
+  --card-fore-color: #332F2B; /* Rich Espresso Brown */
+}
+
+.card > .section.dark {
+  --card-fore-color: #332F2B; /* Rich Espresso Brown */
+}
+
+button.inverse, [type="button"].inverse, [type="submit"].inverse, [type="reset"].inverse, .button.inverse, [role="button"].inverse {
+  --button-back-color: #F5F5DC; /* Creamy Latte Beige */
+  --button-fore-color: #332F2B; /* Rich Espresso Brown */
+}
+
+button.inverse:hover, button.inverse:focus, [type="button"].inverse:hover, [type="button"].inverse:focus, [type="submit"].inverse:hover, [type="submit"].inverse:focus, [type="reset"].inverse:hover, [type="reset"].inverse:focus, .button.inverse:hover, .button.inverse:focus, [role="button"].inverse:hover, [role="button"].inverse:focus {
+  --button-hover-back-color: #DEB887; /* Burlywood */
+}
+}
+/* END OF DARK THEME */
