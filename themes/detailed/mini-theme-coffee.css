@@ -70,7 +70,7 @@
   --collapse-label-hover-back-color: #F5F5DC;
   --collapse-selected-label-back-color: #DEB887; /* Burlywood */
   --collapse-border-color: #A0522D; /* Rich Espresso Brown */
-  --collapse-content-back-color: #FFFFFF; /* White */
+  --collapse-content-back-color: #FAEBD7; /* Creamy Latte Beige */
   --collapse-selected-label-border-color: #CDAD00; /* Warm Caramel */
   --progress-back-color: #A0522D; /* Rich Espresso Brown */
   --progress-fore-color: #8B4513; /* Warm Caramel */
@@ -226,7 +226,7 @@ progress.tertiary {
   --collapse-label-hover-back-color: #332F2B; /* Rich Espresso Brown */
   --collapse-selected-label-back-color: #8B4513; /* Warm Caramel */
   --collapse-border-color: #A0522D; /* Rich Espresso Brown */
-  --collapse-content-back-color: #FFFFFF; /* White */
+  --collapse-content-back-color: #332F2B; /* Rich Espresso Brown */
   --collapse-selected-label-border-color: #CDAD00; /* Warm Caramel */
   --progress-back-color: #A0522D; /* Rich Espresso Brown */
 }
