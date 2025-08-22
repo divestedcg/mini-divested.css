@@ -22,7 +22,7 @@
   --form-border-color: #A0522D; /* Rich Espresso Brown */
   --input-back-color: #FAEBD7; /* Creamy Latte Beige */
   --input-fore-color: #332F2B; /* Rich Espresso Brown */
-  --input-border-color: #A0522D; /* Rich Espresso Brown */
+  --input-border-color: #332F2B; /* Rich Espresso Brown */
   --input-focus-color: #8B4513; /* Warm Caramel */
   --input-invalid-color: #CD5C5C; /* Indian Red */
   --button-back-color: #DEB887; /* Burlywood */
@@ -70,7 +70,7 @@
   --collapse-label-hover-back-color: #F5F5DC;
   --collapse-selected-label-back-color: #DEB887; /* Burlywood */
   --collapse-border-color: #A0522D; /* Rich Espresso Brown */
-  --collapse-content-back-color: #FAEBD7; /* Creamy Latte Beige */
+  --collapse-content-back-color: #F5F5DC;
   --collapse-selected-label-border-color: #CDAD00; /* Warm Caramel */
   --progress-back-color: #A0522D; /* Rich Espresso Brown */
   --progress-fore-color: #8B4513; /* Warm Caramel */
@@ -185,12 +185,12 @@ progress.tertiary {
   --card-back-color: #332F2B; /* Rich Espresso Brown */
   --card-fore-color: #F5F5DC; /* Creamy Latte Beige */
   --card-border-color: #A0522D; /* Rich Espresso Brown */
-  --form-back-color: #4E2A2A; /* Dark Brown */
+  --form-back-color: #332F2B; /* Rich Espresso Brown */
   --form-fore-color: #F5F5DC; /* Creamy Latte Beige */
   --form-border-color: #A0522D; /* Rich Espresso Brown */
   --input-back-color: #332F2B; /* Rich Espresso Brown */
   --input-fore-color: #F5F5DC; /* Creamy Latte Beige */
-  --input-border-color: #A0522D; /* Rich Espresso Brown */
+  --input-border-color: #F5F5DC; /* Creamy Latte Beige */
   --button-back-color: #8B4513; /* Warm Caramel */
   --button-hover-back-color: #6B2F2F; /* Brown */
   --button-fore-color: #FFFFFF; /* White */
@@ -211,7 +211,7 @@ progress.tertiary {
   --drawer-border-color: #A0522D; /* Rich Espresso Brown */
   --drawer-close-color: #DEB887; /* Burlywood */
   --table-border-color: #A0522D; /* Rich Espresso Brown */
-  --table-head-back-color: #4E2A2A; /* Dark Brown */
+  --table-head-back-color: #8B4513; /* Warm Caramel */
   --table-head-fore-color: #F5F5DC; /* Creamy Latte Beige */
   --table-body-back-color: #332F2B; /* Rich Espresso Brown */
   --table-body-fore-color: #F5F5DC; /* Creamy Latte Beige */
@@ -226,7 +226,7 @@ progress.tertiary {
   --collapse-label-hover-back-color: #332F2B; /* Rich Espresso Brown */
   --collapse-selected-label-back-color: #8B4513; /* Warm Caramel */
   --collapse-border-color: #A0522D; /* Rich Espresso Brown */
-  --collapse-content-back-color: #332F2B; /* Rich Espresso Brown */
+  --collapse-content-back-color: #4E2A2A; /* Dark Brown */
   --collapse-selected-label-border-color: #CDAD00; /* Warm Caramel */
   --progress-back-color: #A0522D; /* Rich Espresso Brown */
 }
